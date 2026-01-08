@@ -1,0 +1,129 @@
+*
+{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec1
+{
+    width: 100%;
+    height: 820px;
+    background-color: black;
+    position: relative;
+    color: white;
+}
+.fd
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    position: absolute;
+    left: 1100px;
+}
+.flex
+{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 38px;
+    left: 200px;
+}
+.w
+{
+    width: 40px;
+}
+.zamin
+{
+    width: 608px;
+    height: 616px;
+    position: absolute;
+    top: 102px;
+    left: 480px;
+}
+.to
+{
+    font-size: 46px;
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 360px;
+}
+.dast
+{
+    width: 240px;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+}
+.sleduet
+{
+    position: absolute;
+    top: 450px;
+    left: 1200px;
+}
+.podrobnee
+{
+    width: 250px;
+    height: 55px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 450px;
+    left: 650px;
+}
+@media(max-width: 600px)
+{
+    .zamin
+    {
+        width: 356px;
+        height: 360px;
+        position: absolute;
+        top: 121px;
+        left: 15px;
+    }
+    .to
+    {
+        width: 330px;
+        font-size: 28px;
+        position: absolute;
+        top: 230px;
+        left: 20px;
+    }
+    .flex
+    {
+        position: absolute;
+        left: 10px;
+    }
+    .fd
+    {
+        position: absolute;
+        left: 310px;
+    }
+    .dast
+    {
+        position: absolute;
+        left: 10px;
+        top: 500px;
+        font-size: 15px;
+        width: 200px;
+    }
+    .sleduet
+    {
+        position: absolute;
+        left: 250px;
+        top: 500px;
+    }
+    .podrobnee
+    {
+        position: absolute;
+        left: 70px;
+        top: 600px;
+    }
+    .sec1
+    {
+        height: 700px;
+    }
+}
